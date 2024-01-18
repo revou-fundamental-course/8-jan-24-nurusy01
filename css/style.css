@@ -15,6 +15,17 @@ body {
     margin: 0;
 }
 
+
+button:hover {
+    background-color: #6d5454;
+}
+
+button:active {
+    background-color: #665353;
+    transform: translateY(2px);
+
+}
+
 #calculator {
     text-align: center;
     padding: 20px;
@@ -35,7 +46,7 @@ input {
 button {
     padding: 10px;
     margin: 5px;
-    width: 70px;
+    min-width: 100px;
     cursor: pointer;
     background-color: #A87C7C;
 }
